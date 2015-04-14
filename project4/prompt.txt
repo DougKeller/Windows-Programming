@@ -1,0 +1,8 @@
+What To Do:
+
+Design and implement an online social list (SL) using ASP.NET and MySQL.
+Create yourID.sql (where yourID is your loging ID on the CS network, i.e., your UA email ID) and write the DDL, DML statements to create your database, its table(s) and a few records (e.g. Yingcai Xiao, 330-972-5809, 123 ABC Rd, 1888/8/8, …). Each record contains the following: name, phone, address, DOB, a thumbnail photo (optional), FaceBook link, twitter link, and any other info you want to list.
+Create SL.aspx to allow users to operate the application.
+Provide the following minimum operations: viewing current records, adding a new record, modifying an existing record, and deleting a record.
+The thumbnail photo should be stored in MySQL as a BLOB. When the user clicks on it, a full size photo should appear. The full size photo should be stored on the application server under your directory. This is optional for 10 extra points! (Hints:  your program has to load the photos to the server first and you have to use the absolute path when loading and unloading files at the server side.)
+Provide an online manual to instruct users how to use your SL.
